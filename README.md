@@ -10,10 +10,24 @@
 
 ## GIỚI THIỆU BẢN THÂN
 <a name="gioithieubanthan"></a>
-* *Họ và tên*: Phạm Huỳnh Nhật Tân
-* *MSSV*: 22521309
-* *Khoa*: Khoa học máy tính
-* *Lớp sinh hoạt*: KHMT.04
+1. 22521309
+  - Họ và Tên: Phạm Huỳnh Nhật Tân
+  - Số buổi vắng: 0
+  - Số bài tập quá trình: 9
+  - Điểm WeCode: 3346
+
+2. 22520240
+  - Họ và Tên: Triệu Tấn Đạt
+  - Số buổi vắng: 1
+  - Số bài tập quá trình: 9
+  - Điểm WeCode: 2635
+
+3. 22521610
+  - Họ và Tên: Phạm Nguyễn Anh Tuấn
+  - Số buổi vắng: 2
+  - Số bài tập quá trình: 6
+  - Điểm WeCode:3070
+
 # Danh sách thành viên:
 | Họ và tên      | MSSV | Lớp     |
 | :----:        |    :----:   |          :----: |
