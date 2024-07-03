@@ -40,7 +40,7 @@
 * PGS.TS. *Lê Đình Duy* - duydl@uit.edu.vn
 * ThS. *Phạm Nguyễn Trường An* - truonganpn@uit.edu.vn
 # THÔNG TIN ĐỒ ÁN - THỰC HÀNH
-### 1. Trang github của nhóm (đặt tên repos là mã lớp học-MSSV, ví dụ CS114.O21-MSSV):
+### 1. Trang github của nhóm 
 
 ### 2. Đồ án cuối kỳ: MotocycleClassification
 - Tổng số lượng ảnh đóng góp: 267 (Honda: 53, Suzuki: 54, Yamaha: 51, VinFast: 42, Others: 67).
