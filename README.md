@@ -47,7 +47,7 @@
   + Phương pháp thu thập ảnh: Hình ảnh được thu thập từ Internet, hội nhóm mua bán xe cũ trên Facebook, trang web của các đại lý bán xe.
   + Cách làm sạch dữ liệu ảnh: Những hình ảnh mờ, kích thước quá nhỏ hoặc quá to, xe chiếm dưới 70% tổng thể bức ảnh sẽ được loại bỏ thủ công.
 - Phương pháp rút trích đặc trưng sử dụng: MobileNetV2
-  + Trước đó, chúng em sẽ sử dụng model YOLOv5 để phát hiện xe máy cho từng ảnh sau đó sẽ cắt ảnh theo bounding box (trong trường hợp mô hình phát hiện ra nhiều xe máy thì sẽ lấy ảnh có bounding box lớn nhất). Ảnh sau khi được cắt sẽ là đầu vào của mô hình MobileNetV2 để rút trích đặc trưng
+  + Trước đó, chúng em sẽ sử dụng model YOLOv5 để phát hiện xe máy cho từng ảnh sau đó sẽ cắt ảnh theo bounding box (trong trường hợp mô hình phát hiện ra nhiều xe máy thì sẽ lấy ảnh có bounding box lớn nhất). Ảnh sau khi được cắt sẽ là đầu vào của mô hình MobileNetV2 để rút trích đặc trưng. Dữ liệu sau khi được rút trích ở: https://drive.google.com/drive/folders/1WIucfV6HysjMAsKIb7r6JbQfM9JjPAyZ
 - Thuật toán học được sử dụng: LogisticRegression
 - Framework, thư viện sử dụng: os, pandas, numpy, tensorflow,torchvision, pathlib, PIL, torch, sklearn, cv2, random, csv, matplotlib, MobileNetV2,
 - Kết quả Accuracy: split1: 72.41, split2: 71.87, split3: 72.02, split4: 73.29, split5: 72.41.
