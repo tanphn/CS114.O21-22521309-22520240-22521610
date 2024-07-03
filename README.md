@@ -91,3 +91,13 @@
 - Code của bài tập: https://colab.research.google.com/drive/1LoP9T0rgrorK2H2OVkd50TcyDSWkUlhg?usp=sharing
 
   => Kết quả thu được của chúng em chỉ 518 điểm. Sau đó, chúng em gán nhãn ảnh bằng phương pháp thủ công để thu được số điểm 981 điểm
+## MÔ TẢ HỖ TRỢ CỦA CÁC CÔNG CỤ NHƯ CHATGPT, GEMINI, POE
+
+- Chúng em sử dụng ChatGPT để:
+  + Tìm hiểu cú pháp, tham số, chức năng của các hàm trong đồ án.
+  + Hỗ trợ debug
+  + Đưa ra đánh giá để cải thiện mô hình
+  + Chọn ra phương pháp trích xuất đặc trưng, thuật toán máy học
+  + Gợi ý các đặc trưng cho competition thứ 2
+  + giải thích rõ ràng để giúp hiểu hơn về code
+
