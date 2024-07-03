@@ -8,7 +8,7 @@
 <h1 align="center"><b>MACHINE LEARNING</b></h1>
 
 
-## GIỚI THIỆU BẢN THÂN
+## THÔNG TIN NHÓM
 <a name="gioithieubanthan"></a>
 1. 22521309
   - Họ và Tên: Phạm Huỳnh Nhật Tân
@@ -33,14 +33,7 @@
 | :----:        |    :----:   |          :----: |
 | [Phạm Huỳnh Nhật Tân](https://github.com/tanphn?tab=repositories)      | 22521309       | CS114.O21  |
 | [Phạm Nguyễn Anh Tuấn](https://github.com/nguoimay1103?tab=repositories)   | 22521610        | CS114.O21     |
-| [Lê Thanh Tùng](https://github.com/nguoimay1103?tab=repositories)   | 22521617        | CS114.O21     |
-## GIỚI THIỆU MÔN HỌC
-<a name="gioithieumonhoc"></a>
-* *Tên môn học*: Máy học - MACHINE LEARNING
-* *Mã môn học*: CS114
-* *Lớp học*: CS114.O21
-* *Ngày bắt đầu*: 19/02/2024
-* *Năm học*: 2023-2024
+| [Triệu Tấn Đạt](https://github.com/nguoimay1103?tab=repositories)   | 22520240       | CS114.O21     |
 
 ## GIẢNG VIÊN HƯỚNG DẪN
 <a name="giangvien"></a>
