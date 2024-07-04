@@ -90,7 +90,7 @@
     + Đảo ngược giá trị pixel: Đảo ngược giá trị pixel để phù hợp với định dạng đầu vào của mô hình.
 - Code của bài tập: https://colab.research.google.com/drive/1LoP9T0rgrorK2H2OVkd50TcyDSWkUlhg?usp=sharing
 
-  => Kết quả thu được của chúng em chỉ 518 điểm. Sau đó, chúng em gán nhãn ảnh bằng phương pháp thủ công để thu được số điểm 981 điểm
+  => Kết quả thu được của chúng em chỉ 497 điểm. Sau đó, chúng em gán nhãn ảnh bằng phương pháp thủ công để thu được số điểm 981 điểm
 ## MÔ TẢ HỖ TRỢ CỦA CÁC CÔNG CỤ NHƯ CHATGPT, GEMINI, POE
 
 - Chúng em sử dụng ChatGPT để:
