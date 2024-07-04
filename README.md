@@ -99,5 +99,5 @@
   + Đưa ra đánh giá để cải thiện mô hình
   + Chọn ra phương pháp trích xuất đặc trưng, thuật toán máy học
   + Gợi ý các đặc trưng cho competition thứ 2
-  + GGiải thích rõ ràng để giúp hiểu hơn về code
+  + Giải thích rõ ràng để giúp hiểu hơn về code
 
