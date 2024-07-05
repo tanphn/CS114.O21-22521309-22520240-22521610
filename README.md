@@ -47,8 +47,11 @@
   + Phương pháp thu thập ảnh: Hình ảnh được thu thập từ Internet, hội nhóm mua bán xe cũ trên Facebook, trang web của các đại lý bán xe.
   + Cách làm sạch dữ liệu ảnh: Những hình ảnh mờ, kích thước quá nhỏ hoặc quá to, xe chiếm dưới 70% tổng thể bức ảnh sẽ được loại bỏ thủ công.
 - Phương pháp rút trích đặc trưng sử dụng: MobileNetV2
-  + Trước đó, chúng em sẽ sử dụng model YOLOv5 để phát hiện xe máy cho từng ảnh sau đó sẽ cắt ảnh theo bounding box (trong trường hợp mô hình phát hiện ra nhiều xe máy thì sẽ lấy ảnh có bounding box lớn nhất). Ảnh sau khi được cắt sẽ là đầu vào của mô hình MobileNetV2 để rút trích đặc trưng. Dữ liệu sau khi được rút trích ở: https://drive.google.com/drive/folders/1WIucfV6HysjMAsKIb7r6JbQfM9JjPAyZ
+  + Trước đó, chúng em sẽ sử dụng model YOLOv5 để phát hiện xe máy cho từng ảnh sau đó sẽ cắt ảnh theo bounding box (trong trường hợp mô hình phát hiện ra nhiều xe máy thì sẽ lấy ảnh có bounding box lớn nhất). Ảnh sau khi được cắt sẽ là đầu vào của mô hình MobileNetV2 để rút trích đặc trưng. Dữ liệu từng split sau khi được rút trích ở https://drive.google.com/drive/folders/1WIucfV6HysjMAsKIb7r6JbQfM9JjPAyZ
+  + Ban đầu khi chỉ sử dụng MobileNetV2 thì accuranct: 0.61 khi kết hợp với model YOLOv5 thì accurancy khoảng 0.72 trên mỗi split
+  + Khi rút trích bằng model trên thì sẽ thu được vector đặc trưng có kích thước (1, 1280, 7, 7) cụ thể hơn 1 ở đây là chỉ có 1 ảnh ở trong lô(batch_size), ó 1280 kênh đặc trưng, mỗi kênh có thể được xem như một bộ lọc đã học được các đặc trưng cụ thể từ ảnh đầu vào. Số 7 đầu tiên là đại diện cho chiều cao của các đặc trưng không gian. Số 7 thứ hai là đại diện cho chiều rộng của các đặc trưng không gian.
 - Thuật toán học được sử dụng: LogisticRegression
+  + Mô hình LogisticRegression nhóm em sử dụng với tham số là max_iter = 1000. Tuy nhiên kaggle thông báo mô hình cần tăng max_iter, max_iter vẫn chưa được tối ưu nhóm em có thử với tham số max_iter = 2000 nhưng thời gian chạy quá lâu và mô hình vẫn bị hiện lên dòng thông báo đó. Nhóm em đã thử sử dụng StandardScaler tuy nhiên kết quả vẫn vậy. Nếu có thêm thời gian nhóm em sẽ thử cập nhật lại learning_rate của mô hình và max_iter để tìm ra tham số tốt nhất
 - Framework, thư viện sử dụng: os, pandas, numpy, tensorflow,torchvision, pathlib, PIL, torch, sklearn, cv2, random, csv, matplotlib, MobileNetV2,
 - Kết quả Accuracy: split1: 72.41, split2: 71.87, split3: 72.02, split4: 73.29, split5: 72.41.
 
